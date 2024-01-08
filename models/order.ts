@@ -8,7 +8,7 @@ interface IShippingDetails {
     address:string
  }
 interface IItem{
-    title: string;
+    name: string;
     desc:string;
     id:number;
     price: number;
@@ -44,7 +44,7 @@ export interface IOrder{
     },
     items:{
         type:[{
-            title:{
+            name:{
                 type:String,
                 required:true
             },

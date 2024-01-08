@@ -21,7 +21,7 @@ const OrderSchema = new mongoose_1.Schema({
     },
     items: {
         type: [{
-                title: {
+                name: {
                     type: String,
                     required: true
                 },
